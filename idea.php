@@ -30,7 +30,7 @@ include("php/idea_info.php");
 	    			<!-- Idea Image -->
 	    			<div class="col-sm-6">
 	    				<div class="product-image-large">
-	    					<img src= <?php //echo($row["image_1"]) ?> alt="Item Name">							
+	    					<img src= <?php echo($row["image_1"]) ?> alt="Item Name">							
 	    				</div>	    				
 	    			</div>
 	    			<!-- End Product Image & Available Colors -->
@@ -55,9 +55,35 @@ include("php/idea_info.php");
 								</td>
 							</tr>
 						</table>
+
 	    			</div>
-	    			<!-- End Idea Summary & Options -->  			
+	    			<!-- End Idea Summary & Options -->  
+
 	    		</div>
+
+	    			    			<div class="col-sm-12">
+	    				<div class="tabbable">
+	    					<!-- Tabs -->
+							<ul class="nav nav-tabs product-details-nav">
+								<li class="active"><a href="#tab1" data-toggle="tab">Comments</a></li>
+							</ul>
+							<!-- Tab Content (Full Description) -->
+							<div class="tab-content product-detail-info">
+								<div class="tab-pane active" id="tab1">
+
+	    									<div id="fb-root"></div>
+							<script>(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1579229399015809";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+	    			<div class="fb-comments" data-width="800" data-numposts="5" data-colorscheme="light"></div>
+	    			</div>
+	    			</div>
+						</div>
+	    			</div>
 			</div>
 		</div>
 	
