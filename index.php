@@ -17,7 +17,7 @@
             <div class="col-sm-12">
                 <div class="row">
 
-                <ul><a href="#" class="btn btn"><i class="icon-shopping-cart icon-white"></i> Create Idea</a></ul>
+                <ul><a href="new_idea.php" class="btn btn"><i class="icon-shopping-cart icon-white"></i> Create Idea</a></ul>
 
                 <ul></ul>
                 </div>   

@@ -10,7 +10,7 @@ $query = "SELECT * FROM ideas";
   if($result){
          while($row= $result->fetch_assoc()) {
   
-   
+
     echo"<div class='row'>";
     echo"<div class='col-sm-12'>";
     echo"<div class='portfolio-item'>";
