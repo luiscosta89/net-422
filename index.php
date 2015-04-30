@@ -7,7 +7,7 @@
 <!-- Header -->
 
 <?php include("include/logo.php");?>
-<?php include("include/facebook.php");?>
+
 
 <div class="section">
     <div class="container">
@@ -15,7 +15,12 @@
         <div class="row">
 
             <div class="col-sm-12">
-                    
+                <div class="row">
+
+                <ul><a href="#" class="btn btn"><i class="icon-shopping-cart icon-white"></i> Create Idea</a></ul>
+
+                <ul></ul>
+                </div>   
              </div>
 
         </div>
