@@ -5,7 +5,7 @@ $username = "root";
 $password = "";
 $dbname = "games_data";
 $username2 = "atilla";
-$password2 = "atilla12345"
+$password2 = "atilla12345";
 
 // Create connection
 $conn = new mysqli($servername, $username2, $password2, $dbname);
