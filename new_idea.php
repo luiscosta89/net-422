@@ -19,7 +19,25 @@
 						<td>&nbsp;</td>
 							<form action="php/insert.php" name="game" method="post" onSubmit="return validate();">
 							<font color="orange">
-							Name: <input type="text" name="ideaName" size="30"><br>							
+							Name: <input type="text" name="ideaName" size="30"><br>
+
+<?php
+
+include("sql/connect.php"); // Database connection using PDO
+//$sql="SELECT name,id FROM student";
+$sql="SELECT name,id FROM games order by name";
+/* You can add order by clause to the sql statement if the names are to be displayed in alphabetical order */
+echo "<select name=games value=''>Game Name</option>"; // list box select command
+foreach ($conn->query($sql) as $row){//Array or records stored in $row
+echo "<option value=".$row[id].">".$row[name]."</option>"; 
+/* Option values are added by looping through the array */ 
+}
+echo "</select>";// Closing of list box
+?>
+							<br>
+
+
+
 							Brief explanation: <input type="text" name="brief" size="60"><br>							
 							Full description: <textarea name="description" cols="50" rows="5"></textarea><br>
 							Category: <input type="text" name="category"><br>

@@ -9,6 +9,8 @@ $query = "SELECT * FROM ideas";
 
 if($result)
 {
+    echo"<table class='events-list'>";
+    echo"<tr>";
      while($row= $result->fetch_assoc()) 
      {
 
@@ -38,17 +40,21 @@ if($result)
 
                
                 echo"<li>".$row3['name'] ."</li>";
+                echo"</ol>"; 
                 }
             }
-        echo"</ol>"; 
+        
 
 
 
         echo"</div>";
         echo"</div>";
-        echo"</div>"; 
+        echo"</div>";
 
      } 
+     echo"<tr>";
+     echo"</tr>";
+     echo"</table>";
 }
 
 

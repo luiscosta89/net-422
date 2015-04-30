@@ -38,17 +38,20 @@ function MyFunction()
                 </div>   
              </div>
 
-        </div>
+       
 
         <?php include("php/ideaslist.php");?>
 
+ </div>
+
+
     </div>
+
 </div>
 
     </section>
 
     <!-- Footer -->
-    >
 <?php include("include/footer.php");?>
 
 </body>
