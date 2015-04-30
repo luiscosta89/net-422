@@ -16,7 +16,7 @@ $query = "SELECT * FROM ideas";
     echo"<div class='portfolio-item'>";
     echo"<ol class='breadcrumb bread-primary '>"; 
 
-    echo"<li><a href='#'>".$row['name'] ."</a></li>"; 
+    echo"<li><a href='idea.php?id=".$row['id']."'>".$row['name'] ."</a></li>"; 
 
     echo"</ol>"; 
     echo"</div>";

@@ -8,7 +8,10 @@
 
 <?php include("include/logo.php");?>
 
-<?php include("php/idea_info.php");?>
+<?php 
+include("php/idea_info.php");
+
+?>
 
     <!-- Page Title -->
 		<div class="section section-breadcrumbs">
