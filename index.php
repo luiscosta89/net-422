@@ -26,6 +26,8 @@ function MyFunction()
   } else if (response.status === 'not_authorized') {
         alert("You need to login first");
   } else {
+
+    alert("You need to login first");
     // the user isn't logged in to Facebook.
   }
  });
