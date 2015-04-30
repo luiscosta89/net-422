@@ -15,6 +15,8 @@
             <!-- Featured News -->
             <div class="col-sm-6 featured-news">
                 <h2>Latest News</h2>
+
+
                 <div class="row">
                     <div class="col-xs-4"><a href="page-blog-post-right-sidebar.html"><img src="../img/news1.jpg" alt="Post Title"></a></div>
                     <div class="col-xs-8">

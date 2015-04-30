@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <script>
   // This is called with the results from from FB.getLoginStatus().
   function statusChangeCallback(response) {
@@ -33,11 +36,11 @@
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '{1579229399015809}',
+    appId      : '1579229399015809',
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
-    version    : 'v2.2' // use version 2.2
+    version    : 'v2.3' // use version 2.2
   });
 
   // Now that we've initialized the JavaScript SDK, we call 
@@ -78,3 +81,5 @@
     });
   }
 </script>
+
+</html>
