@@ -37,14 +37,14 @@ include("php/idea_info.php");
 	    			<!-- Product Summary & Options -->
 	    			<div class="col-sm-6 product-details">
 	    				<h4><?php echo($row["name"]) ?></h4>
-	    				<div class="votes"><?php echo($row["sum_votes"]) ?></div>
+	    				<!-- <div class="votes"><?php echo($row["sum_votes"]) ?></div> -->
 						<h5>Brief explanation</h5>
 	    				<p>
 	    					<?php echo($row["brief"]) ?>
 	    				</p>
 						<h5>Full description</h5>
 						<p>
-	    					<?php echo($row["description"]) ?>
+	    					<?php echo($row["descrption"]) ?>
 	    				</p>
 						<table class="shop-item-selections">
 							<!-- Vote Button -->

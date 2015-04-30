@@ -10,6 +10,7 @@
                     <p class="contact-us">
                         <b>Address:</b> Western Illinois University<br />
                         <b>Email:</b> <a href="mailto:atilla.gallio@gmail.com.com">atilla.gallio@gmail.com</a>
+                        <a href="mailto:luis.leite89@gmail.com">luis.leite89@gmail.com</a>
                     </p>
                 </div>
             </div>
