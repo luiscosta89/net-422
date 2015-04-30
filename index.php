@@ -7,6 +7,7 @@
 <!-- Header -->
 
 <?php include("include/logo.php");?>
+<?php include("include/facebook.php");?>
 
 <div class="section">
     <div class="container">
