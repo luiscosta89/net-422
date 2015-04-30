@@ -17,12 +17,12 @@
 					<div class="col-md-12">						
 						<h1>New Idea</h1>
 						<td>&nbsp;</td>
-							<form action="php/insert.php" name="game" method="post">
+							<form action="php/insert.php" name="game" method="post" onSubmit="return validate();">
 							<font color="orange">
 							Name: <input type="text" name="ideaName" size="30"><br>							
 							Brief explanation: <input type="text" name="brief" size="60"><br>							
 							Full description: <textarea name="description" cols="50" rows="5"></textarea><br>
-							Category: <input type="category" name="date"><br>
+							Category: <input type="text" name="category"><br>
 							Image 1 Link: <input type="text" name="img1" size="50"><br>
 							Image 2 Link: <input type="text" name="img2" size="50"><br>
 							Image 3 Link: <input type="text" name="img3" size="50"><br>
@@ -58,10 +58,18 @@ function validate()
       }
 
 	// Validate description
-   name = document.game.type.value;   
+   name = document.game.description.value;   
    if (name == "")
       {
       displayError("You should provide a full description!");
+      return false;  //there is an error
+      }
+	  
+	// Validate category
+   name = document.game.category.value;   
+   if (name == "")
+      {
+      displayError("You should provide a category!");
       return false;  //there is an error
       }
 	  
@@ -76,6 +84,16 @@ function validate()
       }
 	
 }
+
+//If there is an error - display it on the same page
+//The error string is passed through s
+function displayError(s)
+{
+  document.getElementById("errorSpace").innerHTML="<h5 style=\"color:red\">" + s + "</h5>";
+}
+
+
+</script>
 
 </script>
 	
