@@ -23,12 +23,12 @@
             </div>
             <nav id="mainmenu" class="mainmenu">
                 <ul>
-                    <li class="logo-wrapper"><a href="#home"><img src="img/conceptcorner-logo.png" alt="Concept Corner" style="max-width:100%;height:auto;"></a></li>
+                    <li class="logo-wrapper"><a href="index.php"><img src="img/conceptcorner-logo.png" alt="Concept Corner" style="max-width:100%;height:auto;"></a></li>
                     </ul>
                 <ul>
 
                     <li class="active">
-                        <a href="#home">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     
 
