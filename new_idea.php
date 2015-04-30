@@ -17,16 +17,17 @@
 					<div class="col-md-12">						
 						<h1>New Idea</h1>
 						<td>&nbsp;</td>
-							<form action="new_game.php" name="game" method="get">
+							<form action="insert.php" name="game" method="get">
 							<font color="orange">
-							Name: <input type="text" name="userName" size="30"><br>							
+							Name: <input type="text" name="ideaName" size="30"><br>							
 							Brief explanation: <input type="text" name="brief" size="60"><br>							
 							Full description: <textarea name="description" cols="50" rows="5"></textarea><br>
-							Category: <input type="date" name="date"><br>
+							Category: <input type="category" name="date"><br>
 							Image 1 Link: <input type="text" name="img1" size="50"><br>
 							Image 2 Link: <input type="text" name="img2" size="50"><br>
 							Image 3 Link: <input type="text" name="img3" size="50"><br>
-							<a href="#" class="btn btn"><i class="icon-shopping-cart icon-white"></i> Submit!</a>							
+							<br />
+							<input type="submit" value="Click to Submit" />							
 							</font>
 							</form>
 	    			</div>
@@ -41,7 +42,7 @@
 function validate()
 {
    // Validate name
-   name = document.game.userName.value;   
+   name = document.game.ideaName.value;   
    if (name == "")
       {
       displayError("You should provide a name!");
