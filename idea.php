@@ -8,7 +8,7 @@
 
 <?php include("include/logo.php");?>
 
-<?php include("sql/idea_info.php");?>
+<?php include("php/idea_info.php");?>
 
     <!-- Page Title -->
 		<div class="section section-breadcrumbs">
@@ -27,7 +27,7 @@
 	    			<!-- Idea Image -->
 	    			<div class="col-sm-6">
 	    				<div class="product-image-large">
-	    					<img src= <?php echo($row["image_1"]) ?> alt="Item Name">							
+	    					<img src= <?php //echo($row["image_1"]) ?> alt="Item Name">							
 	    				</div>	    				
 	    			</div>
 	    			<!-- End Product Image & Available Colors -->
@@ -48,7 +48,7 @@
 							<tr>
 								<td>&nbsp;</td>
 								<td>
-									<a href= <?php include("sql/add_votes.php");?> class="btn btn"><i class="icon-shopping-cart icon-white"></i> Vote!</a>
+									<a href= <?php //include("sql/add_votes.php");?> class="btn btn"><i class="icon-shopping-cart icon-white"></i> Vote!</a>
 								</td>
 							</tr>
 						</table>
