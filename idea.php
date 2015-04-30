@@ -48,12 +48,12 @@ include("php/idea_info.php");
 	    				</p>
 						<table class="shop-item-selections">
 							<!-- Vote Button -->
-							<tr>
+<!-- 							<tr>
 								<td>&nbsp;</td>
 								<td>
 									<a href= <?php //include("sql/add_votes.php");?> class="btn btn"><i class="icon-shopping-cart icon-white"></i> Vote!</a>
 								</td>
-							</tr>
+							</tr> -->
 						</table>
 
 	    			</div>

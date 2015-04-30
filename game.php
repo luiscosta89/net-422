@@ -8,14 +8,14 @@
 
 <?php include("include/logo.php");?>
 
-<?php include("sql/game_info.php");?>
+<?php include("php/game_info.php");?>
 
     <!-- Page Title -->
 		<div class="section section-breadcrumbs">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1>Idea Details</h1>
+						<h1>Game Details</h1>
 					</div>
 				</div>
 			</div>
