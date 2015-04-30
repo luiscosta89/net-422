@@ -17,8 +17,9 @@ $query = "SELECT * FROM ideas";
     echo"<ol class='breadcrumb bread-primary '>"; 
 
     echo"<li><a href='idea.php?id=".$row['id']."'>".$row['name'] ."</a></li>"; 
-
+    echo"<li>".$row['brief'] ."</li>";
     echo"</ol>"; 
+
     echo"</div>";
     echo"</div>";
     echo"</div>"; 
