@@ -17,7 +17,7 @@
 					<div class="col-md-12">						
 						<h1>New Idea</h1>
 						<td>&nbsp;</td>
-							<form action="insert.php" name="game" method="get">
+							<form action="php/insert.php" name="game" method="post">
 							<font color="orange">
 							Name: <input type="text" name="ideaName" size="30"><br>							
 							Brief explanation: <input type="text" name="brief" size="60"><br>							
