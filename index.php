@@ -16,8 +16,23 @@
 
             <div class="col-sm-12">
                 <div class="row">
+<script>
+function MyFunction()
+{
+    FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+   window.location="new_idea.php";
 
-                <ul><a href="new_idea.php" class="btn btn"><i class="icon-shopping-cart icon-white"></i> Create Idea</a></ul>
+  } else if (response.status === 'not_authorized') {
+        alert("You need to login first");
+  } else {
+    // the user isn't logged in to Facebook.
+  }
+ });
+    
+}
+</script>
+                <ul><a href="#" class="btn btn" onclick="MyFunction();"><i class="icon-shopping-cart icon-white"></i> Create Idea</a></ul>
 
                 <ul></ul>
                 </div>   
